@@ -1,0 +1,100 @@
+.mainApp {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  text-align: center;
+  color: #39ff14;
+}
+.section_1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 550px) {
+  .section_1 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section_2,
+  .box_2 {
+    width: 451px;
+  }
+}
+.box_1 {
+  flex: 1 1;
+  background-color: #212121;
+  margin-top: 10px;
+}
+.box_2 {
+  flex: 1 1;
+  background-color: #212121;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.input_box_1 {
+  flex: 1 1;
+  margin: 5px;
+}
+#voter {
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  outline-color: #39ff14;
+  padding: 0.5rem;
+  width: 97%;
+}
+#points {
+  border: none;
+  border-radius: 5px;
+  outline-color: #39ff14;
+  margin-top: 5px;
+  padding: 0.5rem;
+  width: 97%;
+}
+#options {
+  border: none;
+  border-radius: 5px;
+  outline-color: #39ff14;
+  margin-top: 5px;
+  padding: 0.5rem;
+  width: 99%;
+}
+
+.label {
+  color: white;
+}
+
+#submitButton {
+  width: 98%;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: 700;
+  padding: 0.5rem;
+  background-color: #39ff14;
+}
+
+.list_1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3rem;
+}
+
+.section_2 {
+  margin: 20px;
+  padding-bottom: 20px;
+  background-color: #212121;
+}
+
+.headColor {
+  color: #39ff14;
+}
+
+.mainTable {
+  margin: 0 auto;
+}
+
+.table-data {
+  width: 300px;
+  text-align: center;
+}
